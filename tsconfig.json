@@ -10,5 +10,10 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "skipDefaultLibCheck": true
-  }
+  },
+  "include": ["src", "test", "vite.config.ts"],
+  "exclude": [
+    "**/dist",
+    "**/node_modules"
+  ]
 }
